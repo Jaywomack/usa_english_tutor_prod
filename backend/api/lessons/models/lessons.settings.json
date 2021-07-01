@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "lessons",
   "info": {
-    "name": "lessons"
+    "name": "lessons",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -52,6 +53,40 @@
     },
     "embedID": {
       "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B3",
+        "C1",
+        "C2"
+      ],
+      "required": true,
+      "default": "A1"
+    },
+    "contentType": {
+      "type": "enumeration",
+      "enum": [
+        "speaking",
+        "listening",
+        "reading",
+        "writing"
+      ],
+      "required": true,
+      "default": "speaking"
+    },
+    "simpleLevel": {
+      "type": "enumeration",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert"
+      ],
       "required": true
     }
   }
