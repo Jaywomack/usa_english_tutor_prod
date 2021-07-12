@@ -12,81 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "author": {
-      "type": "string",
-      "required": true
-    },
-    "imageURL": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "intro": {
+    "lessonContent": {
       "type": "richtext",
-      "required": true
-    },
-    "beginningHeadline": {
-      "type": "string"
-    },
-    "beginning": {
-      "type": "richtext",
-      "required": true
-    },
-    "middleHeadline": {
-      "type": "string",
-      "required": true
-    },
-    "middle": {
-      "type": "richtext",
-      "required": true
-    },
-    "endHeadline": {
-      "type": "string",
-      "required": true
-    },
-    "end": {
-      "type": "richtext",
-      "required": true
-    },
-    "embedID": {
-      "type": "string",
-      "required": true
-    },
-    "level": {
-      "type": "enumeration",
-      "enum": [
-        "A1",
-        "A2",
-        "B1",
-        "B3",
-        "C1",
-        "C2"
-      ],
-      "required": true,
-      "default": "A1"
-    },
-    "contentType": {
-      "type": "enumeration",
-      "enum": [
-        "speaking",
-        "listening",
-        "reading",
-        "writing"
-      ],
-      "required": true,
-      "default": "speaking"
-    },
-    "simpleLevel": {
-      "type": "enumeration",
-      "enum": [
-        "beginner",
-        "intermediate",
-        "advanced",
-        "expert"
-      ],
       "required": true
     }
   }
